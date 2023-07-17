@@ -59,7 +59,7 @@ public class Agenda {
 
                     if(indice >= 0 && indice < agenda.size()) {
                         Contato contatoAtualizado = agenda.get(indice);
-                        System.out.println("Digite o novo nome do contato: ");D
+                        System.out.println("Digite o novo nome do contato: ");
                         String novoNome = scanner.nextLine();
                         System.out.println("Digite o novo número do contato: ");
                         String novoNumero = scanner.nextLine();
